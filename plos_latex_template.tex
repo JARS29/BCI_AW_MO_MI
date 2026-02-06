@@ -233,38 +233,30 @@ with the Lorem Ipsum Consortium\textsuperscript{\textpilcrow}
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
 
 
 % Please keep the Author Summary between 150 and 200 words
 % Use first person. PLOS ONE authors please skip this step. 
 % Author Summary not valid for PLOS ONE submissions.   
 \section*{Author summary}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
 
 \linenumbers
 
 % Use "Eq" instead of "Equation" for equation citations.
 \section*{Introduction}
-Lorem ipsum dolor sit~\cite{bib1} amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam Eq~(\ref{eq:schemeP}) sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id.~\cite{bib2} Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
-
-\begin{eqnarray}
-\label{eq:schemeP}
-	\mathrm{P_Y} = \underbrace{H(Y_n) - H(Y_n|\mathbf{V}^{Y}_{n})}_{S_Y} + \underbrace{H(Y_n|\mathbf{V}^{Y}_{n})- H(Y_n|\mathbf{V}^{X,Y}_{n})}_{T_{X\rightarrow Y}},
-\end{eqnarray}
 
 \section*{Materials and methods}
 
-\subsection{Overview}
+\subsection*{Overview}
 
 
 We conducted an offline/online BCI experiment, recording the EEG (Unicorn gtec – 8 Channels) from 29 right-handed participants (14 female; mean age = 22) during a single recording session. The experiment aims to study the feasibility of using Action Words (AW) as a paradigm for BCI, comparing this with the traditional Motor Imagery (MI) and Motor Observation (MO) paradigms. The tasks for MI consist of imaging right-hand or leg movement, while that for AW is reading and mentally rehearsing the presented arm and leg-related action words, and for MO is watching the corresponding first-person perspective videos of the action words. Participants completed two offline and one online run of each experimental condition (MO, MI, AW), in a counterbalanced order. Each run consisted of 30 trials (10 for online runs) with a trial duration of 9 seconds (offline) or 10 seconds (online with neurofeedback). We collected the Vividness of Movement Imagery Questionnaire-2 (VMIQ-2) and demographic information before the experiment. After the second run of each experimental condition, we collected NASA-TLX. At the end of the experiment, we asked usability questions about each condition. We evaluated the aforementioned paradigms using  Movement-Related Potentials (MRP), Event-Related Spectral Perturbation (ERSP), classification rates (offline and online), NASA-TLX, and usability questionnaires. The experiment was approved by the Ethics Commission from both Potsdam University and Institution University of Envigado.
 
 
-\subsection{Participants}
+\subsection*{Participants}
 We collected EEG data from 29 healthy and right-handed participants (14 female) in a voluntary manner. They were Spanish speakers, mostly engineering students (only one lecturer, one lawyer, and one professional in marketing and business) from the Institution University of Envigado, Colombia. Their ages range from 18 to 30 years old (mean= 21.89, SD=3.91). All of them reported normal or corrected to normal vision. None of them reported neurological or psychiatric disorders or drug abuse. No one had previous experience using BCI; only one person had previously used EEG for other purposes. Participants were informed both orally and in writing about the procedure and the EEG recording. All participants gave written informed consent.
 
-\subsection{Materials}
+\subsection*{Materials}
 
 The Lancaster Sensorimotor Norms represent a set of sensorimotor strength evaluation from 39,707 concepts across six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso), collected from a total of 3,500 individual participants (cite lancaster). We initially chose the set of 25 high-ranked words using the foot/leg and hand/arm action effect. Later, we selected the five most prominent and adequate for the current setup, considering that for Motor Observation, we planned to reproduce the action words in a first-person perspective video. Therefore, we selected the words (Spanish version in parentheses)  "Write" (\textit{Escribir}), "Throw" (\textit{Lanzar}), "Cut" (\textit{Cortar}), "Plug" (\textit{Conectar}), "Clap" (\textit{Aplaudir}) for hand/arm, and  "Walk" (\textit{Caminar}), "Sit" (\textit{Sentar}), "Step" (\textit{Paso}), "Jump" (\textit{Saltar}), "Kick" (\textit{Patear}) for foot/leg. Figure \ref{sensorimotor_lancaster} shows the average ratings of Leg and Hand selected words from the Action, Perceptual, and Sensorimotor dimensions. We can perceive that in Action, the selected words reached over 4.0 in the corresponding factor; the ratings are similar for visual in the Perceptual and Sensorimotor, where similarly, like in Action, they reached over or close to 4.0 rating. This guarantees that these words represent a motor-related action and sensorimotor activity for each member, which will be crucial for the classification in BCI. 
 
@@ -282,7 +274,7 @@ The English selected Action Words were translated into Spanish, where words like
 
 
 
-\subsection{Procedure}
+\subsection*{Procedure}
 
 
 The subjects sat and were asked to make themselves comfortable and avoid any other movements during the recordings. The experiment ran on a laptop computer placed at 60-80 cm from the subject.
@@ -301,37 +293,37 @@ The trial is composed of three seconds for resting (gray screen), 1.0 to 1.5 sec
 \end{figure}
 
  
-\subsection{Data Acquisition and Analysis}
+\subsection*{Data Acquisition and Analysis}
 
-\subsubsection{Apparatus}
+\subsubsection*{Apparatus}
 
 We collected the EEG data using a g.tec Unicorn Hybrid Black 24-bit board at a sampling rate of 250 Hz. Following the 10-20 EEG placement system, eight hybrid electrodes were used and placed on the scalp over areas that cover the Frontal (Fz), Central (C3, Cz, C4), Parietal (PO7, Pz, PO8), and Occipital (Oz) cortices. Left and right mastoids were used as reference and ground electrodes, respectively. Labstreaminglayer (LSL) is used for recording and synchronizing the EEG data with Psychopy.
 
 
-\subsubsection{Signal processing}
+\subsubsection*{Signal processing}
 
 We used EEGLAB (2024.2.1) \cite{delorme46} under Matlab 2023b to process the raw EEG data. The initial processing steps involved loading the data and removing epochs and events that were not part of the experimental conditions (Arm and Leg). We applied a band-pass filter from 1 to 40 Hz using a finite impulse response (FIR) filter. Line noise at 60 Hz was addressed using the Cleanline plugin to avoid the creation of band-holes and distortions that can occur with notch filters. The data was then re-referenced using a common average reference (CAR). Artifact rejection was performed using the Cleanraw plugin with specific criteria (BurstCriterion=25, WindowCriterion=0.2) to automatically identify and remove corrupted data segments. The percentage of retained data and the variance reduction in decibels (dB) from this process were calculated and stored for each participant. After this procedure, in average, 17\% of Arm events were rejected while 18\% of Legs events. This data processing stage aligns with the principles of Makoto's EEGLAB pipeline for EEG data processing.\cite{makotopipeline}
 
-\subsubsection{Feature Extraction and Classification}
+\subsubsection*{Feature Extraction and Classification}
 
 This study integrates two distinct types of electroencephalography (EEG) features: Event-Related Potentials (ERP) and oscillatory activity, characterized by Event-Related de-Synchronization/Synchronization (ERD/ERS) and analyzed through Filter Bank Common Spatial Pattern (FBCSP) features. While ERD/ERS patterns are commonly used in Motor Imagery (MI) Brain-Computer Interfaces (BCIs) to capture changes in alpha and beta frequency bands, ERPs are stimulus-locked components that provide additional temporal information. The inclusion of Action Words as a paradigm introduces both of these components, making it beneficial to analyze both stimulus-locked and time-locked EEG signals to comprehensively evaluate the neural response and improve classification accuracy.
 
 ERP features were extracted from a specific set of channels, including Fz, C3, Cz, C4, Pz, and Oz. This was done on epochs with a time window from -0.5s to 2.5s relative to the cue, using a baseline correction from -0.5s to 0s. The features were computed as the mean amplitude within a sliding window of 0.5s with a step size of 0.5s. As a result, we had 36 features (6 time windows x 6 channels). FBCSP features were extracted from channels C3, Cz, C4, PO7, Pz, and PO8. The signal was filtered into multiple frequency bands: 8-12 Hz, 12-16 Hz, 16-20 Hz, 20-24 Hz, 24-28 Hz, and 13-30 Hz. The spatial patterns were then computed using CSP on a time window from 0.5s to 3.0s after the cue. As a result, we had 24 features (6 filter bands x 4 CSP components). To reduce the dimensionality and improve separability, mRMR (minimum Redundancy Maximum Relevance) feature selection was applied to both ERP and FBCSP feature sets, selecting the top 10 features for each. Before feature selection, the features were scaled using a StandardScaler.
 
 
-Then, we used a Support Vector Machine (SVC) with a linear kernel (no hyperparameterization) to distinguish leg and arm signals. The model's performance was evaluated for each of the three paradigms (AW, MI, MO) using three different feature sets: i) only FBCSP features; ii) only ERP features; and iii) a combined feature set of both FBCSP and ERP features. The classification was carried out in two phases: offline and online. Offline classification uses A 10-fold stratified cross-validation on the offline data to assess the performance of each model configuration. While online classification uses the models trained on the offline data to classify unseen online epochs. We simulate an online scenario using an over-time classification, where the classifier was applied to a 2.5s sliding window with a step size of 0.25s over a 5s period of the online data. For Action Words, the online performance was further analyzed by differentiating between "seen" words (those present in the offline training set) and "new" words (not present in the offline training set). This represents a real generalization because most Motor Imagery BCI systems use the same cue during offline and online, where the classifiers reproduce a memorization task instead of predicting new unseen data.
+Then, we used a Support Vector Machine (SVC) with a linear kernel (no hyperparameterization, C=0.5) to distinguish leg and arm signals. The model's performance was evaluated for each of the three paradigms (AW, MI, MO) using three different feature sets: i) only FBCSP features; ii) only ERP features; and iii) a combined feature set of both FBCSP and ERP features. The classification was carried out in two phases: offline and online. Offline classification uses A 10-fold stratified cross-validation on the offline data to assess the performance of each model configuration. While online classification uses the models trained on the offline data to classify unseen online epochs. We simulate an online scenario using an over-time classification, where the classifier was applied to a 2.5s sliding window with a step size of 0.25s over a 5s period of the online data. For Action Words, the online performance was further analyzed by differentiating between "seen" words (those present in the offline training set) and "new" words (not present in the offline training set). This represents a real generalization because most Motor Imagery BCI systems use the same cue during offline and online, where the classifiers reproduce a memorization task instead of predicting new unseen data.
 
-\subsubsection{Movement-related Potential and Event-related spectral perturbation}
+\subsubsection*{ Event-related spectral perturbation (ERSP) and Movement-related Potential (MRP)}
 
 
 To effectively analyze the neurophysiological correlates of the three paradigms, we conducted two distinct but complementary analyses. Motor Imagery (MI) is traditionally associated with modulations of oscillatory activity in the alpha (8-12 Hz) and beta (13-30 Hz) frequency bands, known as Event-Related Desynchronization/Synchronization (ERD/ERS) patterns. However, paradigms involving linguistic processing, such as Action Words (AW), have been shown to elicit both these oscillatory patterns and time-locked temporal components, known as Event-Related Potentials (ERPs). Therefore, examining both spectral and temporal responses provides a more comprehensive understanding of the neural activity elicited by each task. It is important to note that the term Movement-Related Potential (MRP) is also used to refer to the temporal components preceding and accompanying movements. In this context, our ERP analysis serves to capture these temporal dynamics.
 
-The initial step for both analyses involved segmenting the cleaned data into epochs based on the visual cue for either arm or leg movements. These epochs, spanning from -1000 ms to 3000 ms relative to the cue, were then grouped by paradigm (AW, MO, MI) and task (arm or leg) for further processing. The Event-Related Spectral Perturbation (ERSP) was calculated using the newtimef function in EEGLAB. This analysis was performed on the C3, Cz, and C4 electrodes, which are located over the sensorimotor cortex. The function computed the changes in spectral power in a time-frequency domain for a frequency range of 4-40 Hz and a time window of -1000 ms to 3000 ms relative to the cue. A baseline correction was applied using the interval from -1000 ms to 0 ms. For each condition, the data from all subjects and trials were merged to generate a grand average ERSP.
+The initial step for both analyses involved segmenting the cleaned data into epochs based on the visual cue for either arm or leg movements. These epochs, spanning from -1000 ms to 3000 ms relative to the cue, were then grouped by paradigm (AW, MO, MI) and task (arm or leg) for further processing. The Event-Related Spectral Perturbation (ERSP) was calculated using the newtimef function in EEGLAB (cite). This analysis was performed on the C3, Cz, and C4 electrodes, which are located over the sensorimotor cortex. The function computed the changes in spectral power in a time-frequency domain for a frequency range of 4-40 Hz and a time window of -1000 ms to 3000 ms relative to the cue. A baseline correction was applied using the interval from -1000 ms to 0 ms. For each condition, the data from all subjects and trials were merged to generate the significant (alpha <0.05) grand average ERSP. We also used the ERSP data to perform signifiicant tests (Wilcoxon signed-rank test with FDR Benjamini-Hochberg correction, $\alpha <0.05$) and unveil diferences between the paradigms and tasks. Likewise, to verify that the observed ERD/ERS patterns represented true modulations of neural oscillations rather than broadband shifts in the aperiodic (1/f) signal, we parameterized the power spectra using the 'Fitting Oscillations and One-Over-F' (FOOOF) algorithm. For each participant, condition, and task, we computed the Power Spectral Density (PSD) using Welch's method in a time-window of 500 to 2500 ms onset and frequency band of 5 to 40 Hz and check significant differences (Friedman group test with post-hoc wilcoxon test and bonferoni correction, alpha <0.05).
 
 Event-Related Potentials (ERPs) were computed in the time domain for a broader set of channels: Fz, C3, Cz, C4, Pz, and Oz. For each subject and condition, all trial epochs were averaged to generate an ERP waveform. A baseline correction was applied using the time window from -500 ms to 0 ms. Finally, a grand average ERP was calculated by averaging the ERPs across all subjects to examine the overall temporal brain response for each task. A moving average with a window of 10 samples was then applied to the ERP waveform to smooth the data.
 
 
-\subsection{Vividness of Movement Imagery Questionnaire-2 (VMIQ-2) and NASA Task Load Index}
+\subsection*{Vividness of Movement Imagery Questionnaire-2 (VMIQ-2) and NASA Task Load Index}
 
 Vividness of Movement Imagery Questionnaire-2 (VMIQ-2) is a self-report scale designed to measure a person's ability to vividly imagine themselves performing simple motor tasks. The questionnaire assesses three distinct types of imagery on a 5-point Likert scale (1 = No image at all, 5 = Perfectly clear and as vivid as seeing it): internal visual imagery, external visual imagery, and kinesthetic imagery. The VMIQ-2 is an updated version of the original VMIQ, developed in 2008 by Roberts and colleagues. It consists of 36 items, with 12 items for each of the three subscales.
 The VMIQ-2 is a practical tool for subjectively assessing a person's motor imagery capacity before they participate in motor imagery-based BCI experiments, as it can help identify individuals who might have difficulty with the task.
@@ -343,42 +335,83 @@ On the other hand, the NASA-TLX (Task Load Index) is a commonly used subjective 
 % Results and Discussion can be combined.
 \section*{Results}
 
+\subsection*{Frequency domain}
+
+Figure \ref{ERSP_MI_MO_AW_ARMS_LEGS} presents the grand-average time-frequency plots for each condition (Action Words - AW, Motor Imagery - MI, Motor Observation - MO), task (Arms and Legs), and central electrode (C3, Cz, C4), with power changes (ERD = blue, ERS = red) calculated relative to a 1000 ms pre-stimulus baseline. The AW condition (top row) produced robust, somatotopically distinct patterns. The AW - Arms task elicited a clear power decrease (ERD) across the mu ($\approx$8-13 Hz) and beta ($\approx$15-30 Hz) bands, beginning around 500 ms post-stimulus and proving maximal over the contralateral C3 channel. A weaker, more diffuse ERD was also seen over Cz, extending into the low-gamma band ($\approx$30-40 Hz) between 1000-2000 ms. The AW - Legs task demonstrated a clear topographical shift, with the strongest, most sustained broad-band ERD (mu through low-gamma) occurring over the midline Cz channel. Concurrently, this leg task elicited a prominent mu-band ERS at the C3 channel and a late-onset gamma-band ERS ($>30$ Hz) at the C4 channel after 1500 ms. The MO condition (bottom row) showed similar somatotopic patterns. MO - Arms elicited a clear ERS before 1000 ms across mu/alpha and beta bands over both C3 and Cz, followed by a strong ERD pattern in the mu/beta band at C3 and mu/alpha at Cz and C4 (at this channel presented only on 1000ms), where a late-epoch beta ERS emerged around 2000 ms. MO - Legs produced a strong, sustained mu/beta ERD at C3, Cz, and C4 with gamma-band ERS activity at Cz. On the other hand, and in contrast to the AW and MO conditions, the MI paradigm (middle row) failed to produce the representative ERD (citation). Instead, both MI tasks were dominated by a prominent and widespread power increase (ERS) initialized after 1000 ms across the mu/alpha band at all three sensorimotor channels. Particularly, MI - Arms exhibits an ERS/ERD pattern across the whole frequency band (starting with ERS in mu band) at C3 and Cz, but less consistently at C3, while MI - Legs showed a strong mu/alpha ERS across all channels but was also accompanied by a distinct beta/low-gamma ERD that emerged after 1000 ms. In general, the robust ERD at C3 for arms and Cz for legs in the AW condition confirms that simply reading and rehearsing action words triggers a somatotopic motor response while the early ERS followed by ERD in MO is typical of visual stimulus processing and subsequent engagement with the observed action. Meanwhile, the failure of MI to produce ERD, showing the ERS widespread instead, suggests that participants may have been in a state of "idling" or were unable to effectively engage the motor system through imagery alone. In many BCI studies, naive participants fail to produce strong ERD without extensive training (citation). 
+
 
 \begin{figure}[!h]
  \centering
  \includegraphics[width=\textwidth]{Figures/AW_MI_MO_ARMS_LEGS_ERSP.eps}
-\caption{{\bf Experimental timing.}
-The trial is composed of three seconds for resting (gray screen), 1.0 to 1.5 seconds for preparing (a beep sound plus the visual cue), followed by three seconds for performing the task (motor action), plus two seconds for feedback (only for online), and finally an inter-trial interval for 1.0 to 1.5 seconds. In total, each trial lasts nine seconds for offline and 10 for online.}
- \label{timing_protocol}
+\caption{{\bf ERSP patterns at sensorimotor areas for each paradign in Arm and Leg task.}
+Grand-Average Event-Related Spectral Perturbation (ERSP) plots for each condition (Action Words - AW, Motor Imagery - MI, Motor Observation - MO), task (Arms, Legs), and central electrode (C3, Cz, C4). Power changes are plotted relative to a 1000 ms pre-stimulus baseline. Event-Related Desynchronization (ERD) is shown in blue, and Event-Related Synchronization (ERS) is shown in red. The AW and MO conditions show clear somatotopic ERD, with Arms tasks activating C3 and Legs tasks activating Cz. The MI condition is characterized by a prominent ERS in the mu/alpha band.}
+ \label{ERSP_MI_MO_AW_ARMS_LEGS}
 \end{figure}
 
 
+To characterize the neurophysiological correlates of each paradigm, we used the ERSP data for each condition (AW, MI, MO) over the sensorimotor electrodes (C3, Cz, C4) to test significant differences. Figure \ref{ERSP_MI_MO_AW_ARMS_LEGS_CH} illustrates the grand-average ERSP, comparing Action Words (orange) to Motor Imagery (gray) in the top row, and Action Words to Motor Observation (blue) in the bottom row. Horizontal gray bars at the top of each subplot indicate frequency bins with significant differences (Wilcoxon signed-rank test with FDR Benjamini-Hochberg correction, $\alpha <0.05$). First, comparing AW to MI (top row), we observed distinct patterns for the Arms task, where the AW paradigm elicited a significantly stronger and broader power reduction (ERD) than MI across all three electrodes. As shown by the significance bars, this difference was most pronounced in the beta band (approx. 20-30 Hz), particularly over central (Cz) and contralateral (C4) sites, where the significant cluster extends into the alpha band. For the Legs task, the paradigms diverged notably. MI exhibited a classic pattern of a strong power increase (ERS) in the alpha band (approx. 10-15 Hz) followed by a beta-band ERD. In contrast, AW produced a more stable oscillatory activity near 0 dB at C3 and C4 and around -0.5 dB at Cz without any prominent alpha ERS seen in MI. Next, comparing AW to MO (bottom row), we found that for the Arms task, the dynamics at C3 were similar, with intermitent significant differences only appearing in the high-beta/low-gamma range (>30 Hz). At Cz, AW showed a significantly stronger ERD across a very broad band spanning alpha, beta, and low-gamma. In contrast, at C4, the statistical analysis revealed two distinct clusters: MO elicited a significantly stronger ERD in the alpha band, while AW produced a significantly stronger ERD in the high-beta band. For the Legs task, MO consistently generated a significantly stronger ERD than AW across the contralateral (C3) and ipsilateral (C4) electrodes. At the central Cz electrode, this stronger MO-related ERD was significant in two distinct bands: the alpha band and the high-beta band (approx. 30 Hz). In general, ERD is interpreted as the "active" state of the cortex. When a participant imagines or executes a movement, neural populations desynchronize their firing patterns to process information, leading to a drop in recorded power. The data suggests that AW often elicits a stronger, more stable ERD than MI, suggesting AW might more effectively engage these neural populations. Meanwhile, ERS is often interpreted as a state of "cortical idling" or active inhibition. The alpha ERS observed in the MI Legs task suggests that the motor cortex might be in an inhibited or non-engaged state compared to the AW task.
+
+Figure \ref{foof} shows the grand-average power spectral density (PSD) decomposed using the FOOOF algorithm, illustrating both the periodic (mu and beta peaks) and aperiodic (slope and offset) components for each condition (AW, MI, MO) and task (Arm, Leg) over the sensorimotor areas (C3, Cz, C4). Overall, the PSD patterns appear largely similar across all task–condition combinations, with prominent beta activity observed in all channels. The Friedman tests revealed significant differences in the slope for the Leg task at Cz (stat = 6.28, p = 0.0434) and in the offset for the Arm task at C4 (stat = 8.55, p = 0.0139) and Leg task at Cz (stat = 8.55, p = 0.0139). However, none of these effects remained significant in the post-hoc pairwise comparisons after correction. In contrast, a significant effect was found for the mu peak power during the Leg task at Cz (stat = 10.17, p = 0.0062). Post-hoc analysis indicated significant differences between AW vs. MO (p = 0.0453) and MI vs. MO (p = 0.0195), suggesting that MO provides a more robust engagement of the leg-representation area of the motor cortex. The significant mu suppression found in the MO condition (specifically for legs at Cz) is a classic indicator of the Mirror Neuron System (MNS). Research shows that observing an action activates many of the same neural circuits as performing it. Our results suggest that for the Leg task, watching a first-person video (MO) may provide a more "direct" or "automatic" activation of the motor cortex than mentally rehearsing words (AW) or imaging the movement (MI).
+The beta activity across all conditions reflects that beta oscillations are particularly sensitive to motor control and system maintenance. The consistency of these peaks across AW, MI, and MO suggests that all three paradigms successfully engage the sensorimotor network, even if the magnitude of activation (suppression) varies.
+
+%Overall, PSD patterns appear similar across tasks and conditions, with a prominent beta peak. The Friedman test revealed significant effects in the slope for the Leg task at Cz ($p = 0.0434$) and in the offset for the Arm task at C4 and the Leg task at Cz ($p = 0.0139$), though none remained significant in post-hoc analyses. A significant difference was observed in the mu peak power for the Leg task at Cz ($p = 0.0062$), where post-hoc tests indicated mu suppression during Motor Observation compared to Action Words and Motor Imagery. These results suggest consistent beta activation across conditions, with enhanced sensorimotor engagement reflected by mu suppression during the observation of leg movements.
+
+
+\begin{figure}[!h]
+ \centering
+ \includegraphics[width=\textwidth]{Figures/AW_MI_MO_ARM_LEGS_ERSP_CH.eps}
+\caption{{\bf Grand-average Event-Related Spectral Perturbation (ERSP) spectra comparison across paradigms.} The top row illustrates the comparison between Action Words (AW, orange line) and Motor Imagery (MI, gray line). The bottom row illustrates the comparison between Action Words (AW, orange line) and Motor Observation (MO, blue line). Plots are organized by task (Arms, Legs) and electrode (C3, Cz, C4). The y-axis represents the log-transformed power ratio in decibels (dB) relative to a 1000 ms pre-stimulus baseline, while the x-axis shows the frequency range from 5 to 40 Hz. Horizontal gray bars at the top of each subplot indicate frequency bins where significant differences were observed between paradigms ($p < 0.05$, Wilcoxon signed-rank test with FDR Benjamini-Hochberg correction). The more robust ERD elicited by Action Words reflects superior cortical engagement and active neural processing compared to Motor Imagery. Conversely, the prominent ERS observed during leg-related imagery indicates a state of inhibitory idling, suggesting that language-based rehearsal may more effectively activate the sensorimotor cortex than traditional imagery.}
+
+ \label{ERSP_MI_MO_AW_ARMS_LEGS_CH}
+\end{figure}
 
 
 \begin{figure}[!h]
  \centering
  \includegraphics[width=\textwidth]{Figures/AW_MI_MO_ARM_LEG_foof_CH.eps}
-\caption{{\bf Experimental timing.}
-The trial is composed of three seconds for resting (gray screen), 1.0 to 1.5 seconds for preparing (a beep sound plus the visual cue), followed by three seconds for performing the task (motor action), plus two seconds for feedback (only for online), and finally an inter-trial interval for 1.0 to 1.5 seconds. In total, each trial lasts nine seconds for offline and 10 for online.}
- \label{timing_protocol}
+\caption{{\bf Grand-average power spectral density (PSD) with FOOOF model comparison across paradigms.}
+Grand-average power spectral density (PSD) decomposed using the FOOOF algorithm for Action Words (AW), Motor Imagery (MI), and Motor Observation (MO) conditions during Arm and Leg tasks over the sensorimotor electrodes (C3, Cz, C4). Each plot shows the original log-transformed spectrum (solid lines), the aperiodic fit (dashed lines), and the periodic peaks (shaded areas). Taken together, these results suggest that, regardless of the task or condition, strong beta activation was consistently present over sensorimotor regions, with a significant mu suppression during Motor Observation of leg movements at Cz, indicating increased sensorimotor engagement under that condition.}
+ \label{foof}
 \end{figure}
+
+\subsection*{Temporal domain}
+
+To investigate the time-locked neural dynamics associated with each paradigm, we computed the grand-average Event-Related Potentials (ERPs) for the Action Words (AW), Motor Imagery (MI), and Motor Observation (MO). Figure \ref{ERP} shows these ERPs, time-locked to stimulus onset (0 ms), for both Arm and Leg tasks across six representative EEG channels (C3, C4, Cz, Fz, Pz, and Oz). The top row represents sensorimotor areas, and the bottom row shows the midline electrodes, which capture cognitive, motor-preparatory, and visual processing components.
+
+Initially, on sensorimotor channels (C3, Cz, C4) for the Arm task, the AW and MI conditions showed classical motor-related potentials (MRPs), characterized by a pre-stimulus negative-going slope (readiness potential) followed by a positive peak between 200–400 ms, more pronounced for MI, consistent with motor preparation and internal movement simulation (Shibasaki \& Hallett, 2006). The MO condition exhibited positive peaks around the stimulus onset at Cz and C4, indicating movement-monitoring or observation-related activity, while C3 presented early visual-evoked-like potentials (VEPs) due to lateralized visual cues. For the Leg task, both AW and MI produced MRP-like waveforms at C3 and Cz with delayed (~200 ms) peaks at C4, again larger for MI. The MO condition elicited less consistent responses, showing weaker VEP-like deflections without clear motor-preparatory signatures.
+
+Meanwhile, on midline electrodes (Pz, Fz, Oz), specifically at Pz, the Arm task revealed early P100 components across all conditions, indicative of early sensory–perceptual registration (Kappenman \& Luck, 2011). The MI condition then exhibited a negative deflection around 250 ms (N250/N2) rather than a positive P300, consistent with inhibitory control and internal motor simulation, where activation of motor plans is suppressed (Pfurtscheller \& Neuper, 1997). AW and MO showed continued oscillatory activity with late P500-like slow positivities in MO, reflecting attentional reorientation and visual–motor evaluation. For Legs, MI and AW both showed an early N100 (faster for MI) reflecting early attentional orienting, followed by a broad P300 (~300–400 ms) linked to attentional updating and motor evaluation, stronger and later for MI due to greater cognitive load. In contrast, MO displayed an early P100 followed by a negative-going N300, consistent with visual processing of motion and inhibitory mirror system engagement.
+
+Looking at Fz, both Arm and Leg tasks produced frontal N100 components (~100 ms) for AW and MI, associated with stimulus detection and early cognitive control (Kappenman \& Luck, 2011). These were followed by a robust P300 (250–350 ms) in AW and MI, indicating executive motor control and decision-related processing during action understanding and motor imagery (Yuan et al., 2010). In contrast, the MO condition showed an inverted polarity pattern, beginning with P100 and a strong N300, suggesting greater reliance on visual–motor integration and post-perceptual inhibition, in line with observation-driven mirror activity rather than direct motor preparation.  Finally, at Oz, the MO condition elicited a strong Contingent Negative Variation (CNV), more pronounced for Arm than Leg tasks, reflecting anticipatory visual–motor preparation and sustained attention (Walter et al., 1964). Both AW and MI followed a P100–N250 sequence, consistent with initial visual encoding (P100) followed by visuospatial or imagery-related processing (N250). This pattern was more temporally synchronized for Legs but showed greater amplitude for Arms, suggesting stronger coupling between visual and motor representations in upper-limb imagery. In contrast, the ipsilateral channel C4 shows a significantly attenuated or absent response, confirming the expected lateralization of arm-related motor planning.
 
 
 \begin{figure}[!h]
  \centering
  \includegraphics[width=\textwidth]{Figures/ERP_ARM_LEG_CH.eps}
-\caption{{\bf Experimental timing.}
-The trial is composed of three seconds for resting (gray screen), 1.0 to 1.5 seconds for preparing (a beep sound plus the visual cue), followed by three seconds for performing the task (motor action), plus two seconds for feedback (only for online), and finally an inter-trial interval for 1.0 to 1.5 seconds. In total, each trial lasts nine seconds for offline and 10 for online.}
- \label{timing_protocol}
+\caption{{\bf Grand-average Event-Related Potentials (ERPs) comparison across paradigms.}
+The top row displays waveforms for sensorimotor channels (C3, Cz, C4), while the bottom row illustrates activity at midline sites (Fz, Pz, Oz). Stimulus onset is at 0 ms. The orange line represents Action Words (AW), the gray line represents Motor Imagery (MI), and the blue line represents Motor Observation (MO). Distinct ERP components are evident across conditions, reflecting varying cognitive and motor processes. Notably, AW and MI elicit classical motor-related potentials (MRPs) with readiness potentials and positive peaks, while MO shows observation-related activity. Midline electrodes reveal sensory-perceptual components (P100, N250, P300) linked to attentional and executive functions, with MO exhibiting unique inhibitory patterns. These findings highlight the differential engagement of neural circuits across paradigms during motor tasks.}
+ \label{ERP}
 \end{figure}
+
+
+\subsection*{Topographical distribution of temporal and frecuency domains}
+
+To evaluate the spatiotemporal evolution of cortical activity, we computed topographies for the mu (7–13 Hz) and beta (13–30 Hz) bands, alongside ERP amplitudes, across four consecutive 250 ms windows (Figure \ref{TOPO_ARM_LEGS}). For the Arms task, AW exhibited a neutral state in the first 250 ms, followed by a progressive power decrease (ERD) in mu and beta bands that became focal over the left sensorimotor cortex (C3) after 500 ms. In the Legs task, a distinct shift was observed, with ERD emerging primarily over the midline central area (Cz). This "semantic-to-motor" delay (approx. 500 ms) reflects the cognitive requirements of lexico-semantic decoding before the activation of embodied motor templates.
+
+In contrast to the other paradigms, MI was characterized by a lack of sustained ERD. Instead, a widespread power increase (ERS, red) emerged in both mu and beta bands, particularly between 500–1000 ms. This pattern was most prominent over the vertex (Cz) during leg imagery, suggesting a state of cortical idling or a failure of the naive participants to effectively engage the motor system through kinesthetic imagery alone.
+
+Motor Observation (MO): MO elicited the most rapid and intense sensorimotor engagement. For both tasks, mu and beta ERD emerged as early as 250 ms. The ERP topographies reveal initial high-amplitude activity in the occipital areas (Oz) during the 0–250 ms window, reflecting visual processing, which immediately transitioned into robust sensorimotor recruitment via the Mirror Neuron System (MNS).
 
 
 \begin{figure}[!h]
  \centering
  \includegraphics[width=\textwidth]{Figures/TOPO_ARM_LEGS.eps}
-\caption{{\bf Experimental timing.}
-The trial is composed of three seconds for resting (gray screen), 1.0 to 1.5 seconds for preparing (a beep sound plus the visual cue), followed by three seconds for performing the task (motor action), plus two seconds for feedback (only for online), and finally an inter-trial interval for 1.0 to 1.5 seconds. In total, each trial lasts nine seconds for offline and 10 for online.}
- \label{timing_protocol}
+\caption{{\bfSpatiotemporal topographies of spectral power and ERP amplitudes across paradigms}
+
+Grand-average topographic distribution for Action Words (AW), Motor Imagery (MI), and Motor Observation (MO) during Arm and Leg tasks across four consecutive 250 ms windows (0–1000 ms). For each paradigm, the rows illustrate power changes in the mu (7–13 Hz) and beta (13–30 Hz) bands in decibels (dB), alongside the ERP amplitude in microvolts ($\mu V$). Note the focal, somatotopic transition of Event-Related Desynchronization (ERD) from C3 (Arms) to Cz (Legs) in the AW and MO paradigms after 500 ms, contrasted with the widespread Event-Related Synchronization (ERS) observed in the MI condition, indicating cortical idling, confirming the somatotopic specificity and temporal evolution of the three paradigms.
+
+}
+ \label{TOPO_ARM_LEGS}
 \end{figure}
 
 
@@ -429,8 +462,6 @@ The trial is composed of three seconds for resting (gray screen), 1.0 to 1.5 sec
 \end{figure}
 
 
-Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
-
 % Place tables after the first paragraph in which they are cited.
 %\begin{table}[!ht]
 %\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
@@ -451,43 +482,25 @@ Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod dia
 %\end{table}
 
 
-%PLOS does not support heading levels beyond the 3rd (no 4th level headings).
-\subsection*{\lorem\ and \ipsum\ nunc blandit a tortor}
-\subsubsection*{3rd level heading} 
-Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque. Quisque augue sem, tincidunt sit amet feugiat eget, ullamcorper sed velit. Sed non aliquet felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo ac dui pretium imperdiet. Sed suscipit iaculis mi at feugiat. 
-
-\begin{enumerate}
-	\item{react}
-	\item{diffuse free particles}
-	\item{increment time by dt and go to 1}
-\end{enumerate}
+%\begin{enumerate}
+%	\item{react}
+%	\item{diffuse free particles}
+%	\item{increment time by dt and go to 1}
+%\end{enumerate}
 
 
-\subsection*{Sed ac quam id nisi malesuada congue}
-
-Nulla mi mi, venenatis sed ipsum varius, volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
-
-\begin{itemize}
-	\item First bulleted item.
-	\item Second bulleted item.
-	\item Third bulleted item.
-\end{itemize}
+%\begin{itemize}
+%	\item First bulleted item.
+%	\item Second bulleted item.
+%	\item Third bulleted item.
+%\end{itemize}
 
 \section*{Discussion}
-Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero~\cite{bib3}.
 
 \section*{Conclusion}
 
-CO\textsubscript{2} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque. Quisque augue sem, tincidunt sit amet feugiat eget, ullamcorper sed velit. 
-
-Sed non aliquet felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo ac dui pretium imperdiet. Sed suscipit iaculis mi at feugiat. Ut neque ipsum, luctus id lacus ut, laoreet scelerisque urna. Phasellus venenatis, tortor nec vestibulum mattis, massa tortor interdum felis, nec pellentesque metus tortor nec nisl. Ut ornare mauris tellus, vel dapibus arcu suscipit sed. Nam condimentum sem eget mollis euismod. Nullam dui urna, gravida venenatis dui et, tincidunt sodales ex. Nunc est dui, sodales sed mauris nec, auctor sagittis leo. Aliquam tincidunt, ex in facilisis elementum, libero lectus luctus est, non vulputate nisl augue at dolor. For more information, see \nameref{S1_Appendix}.
 
 \section*{Supporting information}
-
-% Include only the SI item label in the paragraph heading. Use the \nameref{label} command to cite SI items in the text.
-\paragraph*{S1 Fig.}
-\label{S1_Fig}
-{\bf Bold the title sentence.} Add descriptive text after the title of the item (optional).
 
 
 
@@ -522,6 +535,20 @@ WRITE   & ESCRIBIR & Arm & 5.061 & 5.424 & 1 (4) & 3 (8) \\ \bottomrule
 }
 \end{table}
 
+
+
+% Include only the SI item label in the paragraph heading. Use the \nameref{label} command to cite SI items in the text.
+\paragraph*{S1 Fig.}
+\label{S1_Fig}
+{\bf Bold the title sentence.} Add descriptive text after the title of the item (optional).
+
+\begin{figure}[!h]
+ \centering
+ \includegraphics[width=\textwidth]{Figures/AW_MI_MO_ARM_LEG_foof_CH.eps}
+\caption{{\bf Experimental timing.}
+The trial is composed of three seconds for resting (gray screen), 1.0 to 1.5 seconds for preparing (a beep sound plus the visual cue), followed by three seconds for performing the task (motor action), plus two seconds for feedback (only for online), and finally an inter-trial interval for 1.0 to 1.5 seconds. In total, each trial lasts nine seconds for offline and 10 for online.}
+ \label{fooof_ERSP}
+\end{figure}
 
 
 \paragraph*{S2 Table.}
